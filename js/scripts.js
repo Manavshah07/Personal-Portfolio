@@ -1,22 +1,11 @@
 /*************************************************************************************************************************************
                                                         NAVBAR  SECTION
  *************************************************************************************************************************************/
-
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if(this.scrollY > 20){
-            $('.navbar').addClass('sticky');
-        }else{
-            $('.navbar').removeClass('sticky');
-        }
-    });
-
     //menu toggle script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-});
 
 /*************************************************************************************************************************************
                                                         SKILLS  SECTION
@@ -62,6 +51,32 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
-/*--------------------------------------------------------------------------------------------------------------------------------------
-                                                                STYLE SWITCHER 
---------------------------------------------------------------------------------------------------------------------------------------*/
+
+// $(function(){
+//   $("a.smooth-scroll").click(function(event){
+//       event.preventDefault();
+//       var section_id = $(this).attr("href");
+//       $("html,body").animate({
+//           scrollTop:$(section_id).offset().top +50
+//       },1250,"easeInOutExpo")
+//   });
+// });
+
+/*--------------------------------------------------------------------------------------------------------
+                                                  HEADER
+-------------------------------------------------------------------------------------------------------*/
+
+$(function (){
+  showHideNav();
+  $(window).scroll(function(){
+      showHideNav();
+  });
+
+  function showHideNav(){
+      if($(window).scrollTop()>50){
+          $("#back-to-top").fadeIn();
+      }else{
+          $("#back-to-top").fadeOut();
+      }
+  }
+});
