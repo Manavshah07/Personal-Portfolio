@@ -1,0 +1,143 @@
+/*
+1.extra small-devices < 576px width
+2.small devices < 786px width
+3.medium screen < 992px width
+4.large screen < 1200px width
+5.extra large >= 1200px
+*/
+
+@media(min-width: 950px){
+    /* container */
+    .container{
+        max-width: 850px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 100px 0;
+    }
+    .content-box-md{
+    padding: 70px 0;
+    }
+    .content-box-sm{
+        padding: 40px 0;
+    }
+    .content-box-xs{
+        padding: 20px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+    
+    .home .home-text,
+    .home .home-img{
+        flex: 0 0 50%;    
+    }
+    .home .home-text{
+        margin-top: 40px;
+        text-align: left;
+    }
+    .home .home-img .img-circle{
+        max-width: 500px;
+    }
+    .home .home-img .img-circle img{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .home .home-text .text-1{
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    .home .home-text .text-2{
+        font-size: 50px;
+        line-height: 1.1;
+    }
+    .home .home-text .text-3{
+        font-size: 32px;
+        margin: 5px 0;
+        line-height: 1.3;
+    }
+    .home-btn{
+        margin-top: 0px;
+    }
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about .container{
+            max-width: 950px;
+    }
+    
+    .about-flex{
+        display: flex;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 60px;
+        margin-top: 50px;
+    }
+    .about-img{
+        margin-left: 30px;
+    }
+    .about-btn{
+        margin-top: 10px;
+    }
+    .about .about-img img{
+        width: 400px;
+        height: 400px;
+    }
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project .container{
+        max-width: 900px;
+        margin: auto;
+    }
+    .project-card{
+        width: 400px;
+        height: 400px;
+        margin-left: 40px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 20px;
+    }
+    .contact-card{
+        width: 350px;
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 20px;
+    }
+
+    .contact-input{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 94%;
+    }
+    .submit-btn{
+        margin-left: 40px;
+    }
+}
