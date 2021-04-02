@@ -312,7 +312,6 @@ padding: 90px 0;
 }
 .home .home-text .text-3{
     font-size: 40px;
-    margin: 5px 0;
     color: #000;
 }
 .home .home-text .text-3 span{
@@ -441,9 +440,10 @@ padding: 90px 0;
     margin-top: 30px;
     margin-left: 70px;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------------
-                                                                CONTACT SECTION 
---------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------------------------------------------------------------------------------------
+                                            CONTACT SECTION 
+-------------------------------------------------------------------------------------------------------*/
 textarea{
     resize: none;
     font-family: 'Poppins',sans-serif;
@@ -553,6 +553,68 @@ footer p{
     text-align: center;
 }
 
+.social-media-icon{
+    position: fixed;
+    right: 0;
+    top: 40%;
+    cursor: pointer;
+}
+.gitlab-icon{
+    position: fixed;
+    top: 280px;
+    right: 20px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    color: #e24329;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+.linkedin-icon{
+    position: fixed;
+    top: 340px;
+    right: 20px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    color: #0e76a8;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+.instagram-icon{
+    position: fixed;
+    top: 400px;
+    right: 20px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    color: #8a3ab9;
+    font-size: 1.4rem;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.behance-icon{
+    position: fixed;
+    top: 460px;
+    right: 20px;
+    z-index: 999;
+    width: 45px;
+    height: 45px;
+    color: #053eff ;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+/*-------------------------------------------------------------------------------------------------------
+                                            PRELOADER 
+-------------------------------------------------------------------------------------------------------*/
 
 
 

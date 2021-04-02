@@ -7,28 +7,10 @@
         $('.menu-btn i').toggleClass("active");
     });
 
-/*************************************************************************************************************************************
-                                                        SKILLS  SECTION
-*************************************************************************************************************************************/
-// $(document).ready(function(){
-//     $("#progress-elements").waypoint(function(){
-//         $(".progress-bar").each(function(){
-//             $(this).animate({
-//                 width: $(this).attr("aria-valuenow")+"%"
-//             },800);
-//         });
-//         this.destroy();
-//     }, {
-//         offset: 'bottom-in-view'
-//     });
-// });
-
-
-// $(document).ready(function(){
-//     $('#skills-tab').responsiveTabs({
-//         animation:'slide'
-//     });
-// });
+    //slide-up script 
+    $('#back-to-top').click(function(){
+        $('html').animate({scrollTop :0});
+    });
 
 /*************************************************************************************************************************************
                                                         PROJECT  SECTION
@@ -79,4 +61,20 @@ $(function (){
           $("#back-to-top").fadeOut();
       }
   }
+});
+
+/*****************************************************************
+                PRELOADER FUNCTION
+*****************************************************************/
+
+$(window).on('load', function(){
+   $(".wrapper").delay(1000).fadeOut('slow');
+});
+
+// typing animation script
+var typed = new Typed(".typing", {
+    strings: ["Web Developer", "Full Stack", "Freelancer", "UI UX Designer"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
 });
