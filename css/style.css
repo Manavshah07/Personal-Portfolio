@@ -238,12 +238,29 @@ padding: 90px 0;
     padding: 10px 20px;
     border-radius: 5px;
 }
+/* .btn1{
+    padding: 10px 20px;
+    margin: 30px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border: 2px solid #2558E4;
+    color: #FFF;
+    cursor: pointer;
+    background: #2558E4;
+    background-size: 200%;
+    background-position: left;
+    transition: background-position 0.5s;
+}
+.btn1:hover{
+    background-position: right;
+    color: #000;
+} */
+
 .btn1{
     border: 2px solid #2558E4;
     color: #505050;
     transition: all .3s ease-in-out;
 }
-
 .btn1:hover {
     background: #2558E4;;
     color: #FFF;
