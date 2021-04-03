@@ -33,6 +33,9 @@ var swiper = new Swiper('.swiper-container', {
 });
 
 
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 400
+});
 
 // $(function(){
 //   $("a.smooth-scroll").click(function(event){
