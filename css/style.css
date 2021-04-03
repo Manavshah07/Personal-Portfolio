@@ -573,12 +573,12 @@ footer p{
 .social-media-icon{
     position: fixed;
     right: 0;
-    top: 40%;
+    /* top: 40%; */
     cursor: pointer;
 }
 .gitlab-icon{
     position: fixed;
-    top: 160px;
+    top: 240px;
     right: 20px;
     z-index: 999;
     width: 45px;
@@ -591,7 +591,7 @@ footer p{
 }
 .linkedin-icon{
     position: fixed;
-    top: 260px;
+    top: 300px;
     right: 20px;
     z-index: 999;
     width: 45px;
@@ -604,7 +604,7 @@ footer p{
 }
 .instagram-icon{
     position: fixed;
-    top: 320px;
+    top: 360px;
     right: 20px;
     z-index: 999;
     width: 45px;
@@ -615,10 +615,9 @@ footer p{
     text-align: center;
     line-height: 45px;
 }
-
 .behance-icon{
     position: fixed;
-    top: 380px;
+    top: 420px;
     right: 20px;
     z-index: 999;
     width: 45px;

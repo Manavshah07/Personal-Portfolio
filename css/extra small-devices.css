@@ -159,6 +159,60 @@
     .submit-btn{
         margin-left: 20px;
     }
+
+    .gitlab-icon{
+        position: fixed;
+        top: 160px;
+        right: 20px;
+        z-index: 999;
+        width: 45px;
+        height: 45px;
+        color: #e24329;
+        font-size: 1.4rem;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .linkedin-icon{
+        position: fixed;
+        top: 220px;
+        right: 20px;
+        z-index: 999;
+        width: 45px;
+        height: 45px;
+        color: #0e76a8;
+        font-size: 1.2rem;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .instagram-icon{
+        position: fixed;
+        top: 280px;
+        right: 20px;
+        z-index: 999;
+        width: 45px;
+        height: 45px;
+        color: #8a3ab9;
+        font-size: 1.4rem;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 45px;
+    }
+    
+    .behance-icon{
+        position: fixed;
+        top: 340px;
+        right: 20px;
+        z-index: 999;
+        width: 45px;
+        height: 45px;
+        color: #053eff ;
+        font-size: 1.2rem;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 45px;
+    }
 }
 
 
