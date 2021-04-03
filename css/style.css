@@ -578,7 +578,7 @@ footer p{
 }
 .gitlab-icon{
     position: fixed;
-    top: 200px;
+    top: 160px;
     right: 20px;
     z-index: 999;
     width: 45px;
