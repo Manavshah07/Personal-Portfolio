@@ -81,3 +81,8 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
+
+//active button
+$(document).on('click','ul li', function(){
+    $(this).addClass('active').siblings().removeClass('active');
+});

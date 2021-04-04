@@ -108,7 +108,7 @@ padding: 90px 0;
 }
 .navbar .menu li a{
     color: #000;
-    display: inline-block;
+    display: block;
     font-size: 18px;
     margin-left: 50px;
     transition: color 0.3s ease;
@@ -134,7 +134,6 @@ padding: 90px 0;
 
 .navbar ul.menu>li.active>a{
     color: #2558E4;
-
  }
 /*------------------------------------ 
                 MENU BTN 
