@@ -86,3 +86,21 @@ var typed = new Typed(".typing", {
 $(document).on('click','ul li', function(){
     $(this).addClass('active').siblings().removeClass('active');
 });
+
+// const currentLocation = location.href;
+// const menuItem = document.querySelectorAll('a');
+// const menuLength = menuItem.length
+// for(let i=0; i<menuLength; i++){
+//     if(menuItem[i].href === currentLocation){
+//         menuItem[i].className = 
+//     }
+// }
+
+$('#menu').onePageNav({
+	currentClass: 'active',
+	changeHash: false,
+	scrollSpeed: 750,
+	scrollThreshold: 0.5,
+	filter: '',
+	easing: 'swing'
+});
