@@ -15,12 +15,13 @@
     <!-- <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Iconscout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
     <!-- Animate CSS -->
     <link rel="stylesheet" href="css/animate/animate.min.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-
+    
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="css/extra small-devices.css">
     <link rel="stylesheet" href="css/small-devices.css">
@@ -28,6 +29,10 @@
     <link rel="stylesheet" href="css/large-screen.css">
     <link rel="stylesheet" href="css/extra large-screen.css">
     <link rel="stylesheet" href="css/extra large-desktop-screen.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40">
@@ -42,6 +47,7 @@
             <ul class="menu" id="menu">
                 <li class="active"><a href="#home" class="link smooth-scroll menu-btn" >Home</a></li>
                 <li><a href="#about" class="link smooth-scroll menu-btn">About Me</a></li>
+                <li><a href="#skills" class="link smooth-scroll menu-btn">Skills</a></li>
                 <li><a href="#project" class="link smooth-scroll menu-btn">Projects</a></li>
                 <li><a href="#contact" class="link smooth-scroll menu-btn">Contact</a></li>
             </ul>
@@ -57,14 +63,14 @@
 <!--HOME SECTION-->
    <section class="home section-white" id="home">
        <!--effect wrap-->
-       <!-- <div class="effect-wrap">
+        <div class="effect-wrap">
            <div class="effect effect-1"></div>
            <div class="effect effect-2"></div>
-       </div> -->
+       </div> 
        <!--/effect wrap-->
 
        <!--blob wrap-->
-       <!-- <div class="blob-wrap "></div> -->
+            <div class="blob-wrap"></div> 
        <!--/blob wrap-->
        <div class="content-box-md">
             <div class="container">
@@ -76,7 +82,7 @@
                         <div class="text-3">And I'm a <span class="typing"></span></div>
                         <!-- <div href="#" class="btn btn2">More About Me</div> -->
                         <div class="home-btn">
-                            <a href="#about" class="btn btn1">More About Me</a>
+                            <a href="#contact" class="btn btn1">Get In Touch</a>
                         </div>
                     </div>
                     <div class="home-img">
@@ -118,7 +124,9 @@
                             I am Manav Shah, pursuing Bachelor of Computer Engineering. Having a keen interest in <span>UI/UX Designer</span> and <span> Web Developement.</span>  I am self-motivated and self-taught person who likes to solve my problems. Want to become a <span> Full Stack Developer </span> which will help my clients and will help me in my career growth. 
                         </p>
                         <div class="about-btn">
-                            <a href="./Resume/Resume.pdf" class="btn btn1">View Resume</a>
+                            <a download="" href="./Resume/Resume.pdf" class="btn btn1">
+                                View Resume <i class="uil uil-download-alt"></i>
+                            </a>
                         </div>
                     </div>
                     </div>
@@ -128,8 +136,78 @@
    </section>
 <!--/ABOUT SECTION-->
 
+
+<!--SKILLS SECTION-->
+    <section class="skill" id="skills">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2 data-heading="skills">My technical level</h2>
+                    </div>
+                </div>
+                <div class="row">
+                <!--LANGUAGES-->
+                    <div class="skill-card shadow">
+                        <div class="skill-heading">
+                            <i class="uil uil-brackets-curly"></i>
+                            <span> Languages</span>
+                        </div>
+                        <ul>
+                            <li><p>C/C++</p></li>
+                            <li><p>HTML/CSS</p></li>
+                            <li><p>Javascript/Jquery</p></li>
+                            <li><p>PHP/Laravel</p></li>
+                            <li><p>Java</p></li>
+                            <li><p>MySQL</p></li>
+                        </ul>
+                    </div>
+                <!--/LANGUAGES-->
+                
+                <!--Designing skills-->
+                    <div class="skill-card shadow">
+                        <div class="skill-heading">
+                            <i class="uil uil-server-network"></i>
+                            <span>Design Skills</span>
+                        </div>
+                        <ul>
+                            <li><p>Wireframe / Prototype</p></li>
+                            <li><p>UI / UX Designing</p></li>
+                            <li><p>Front End Designing</p></li>
+                            <li><p>Product Designing</p></li>
+                            <li><p>Illustrations</p></li>
+                            <li><p>UI Kits</p></li>
+                            <li><p>Branding</p></li>
+                        </ul>
+                    </div>
+                <!--/Designing skills-->
+                
+                <!--soft skills-->
+                    <div class="skill-card shadow">
+                        <div class="skill-heading">
+                            <img src="./image/icons8-communication-skill-64.png" alt="" width="40px" height="30px">
+                            <span>Soft Skills</span>
+                        </div>
+                        <ul>
+                            <li><p>Leadership</p></li>
+                            <li><p>Teamwork</p></li>
+                            <li><p>Flexible / Adaptable</p></li>
+                            <li><p>Problem Solver</p></li>
+                            <li><p>Reliable</p></li>
+                        </ul>
+                    </div>
+                <!--/soft skills-->
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+<!--/SKILLS SECTION-->
+
+
 <!-- PROJECT SECTION-->
-   <div class="project" id="project">
+   <div class="project section-light" id="project">
        <div class="content-box-md">
            <div class="container">
                <div class="row">
@@ -247,7 +325,7 @@
 <!-- /PROJECT SECTION -->
 
 <!--CONTACT SECTION-->
-   <section class="contact section-light" id="contact">
+   <section class="contact" id="contact">
         <div class="content-box-sm">
             <div class="container">
                 <div class="row">
@@ -286,7 +364,10 @@
                                             <textarea name="message" id="" placeholder="Message" class="input-control m-b-10 m-t-10" required></textarea>
                                         </label>
                                     </div>
-                                    <input type="submit" name="submit" value="Get In Touch" class="btn btn1 submit-btn">
+                                    <div class="">
+                                        <input type="submit" name="submit" value="submit"  class="btn btn1 submit-btn">
+
+                                    </div>
                                 </form>
                             </div>
                        </div>

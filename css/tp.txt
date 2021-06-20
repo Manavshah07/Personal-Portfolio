@@ -1,0 +1,248 @@
+<!--SKILLS SECTION-->
+    <section class="skill" id="skills">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2 data-heading="skills">My technical level</h2>
+                    </div>
+                </div>
+            <!--TABS-->
+                <div class="row">
+                    <div class="skill-tabs">
+                        <span class="tab-item shadow active" data-target=".languages">Languages</span>
+                        <span class="tab-item shadow" data-target=".designing-skills">Designing Skills</span>
+                        <span class="tab-item shadow" data-target=".soft-skills">Soft Skills</span>
+                    </div>
+                </div>
+            <!--/TABS-->
+            <!--SKILLS-->
+                <div class="row">
+                    <div class="languages tab-content">
+                        <div class="row">
+                        <!--SKILL-ITEM-1-->
+                            <div class="skill-item">
+                                <p>C/C++</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(60% - 14px)">
+                                        <span>60%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-1-->
+                        
+                        <!--SKILL-ITEM-2-->
+                            <div class="skill-item">
+                                <p>HTML/CSS</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(85% - 14px)">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-2-->
+                        
+                        <!--SKILL-ITEM-3-->
+                            <div class="skill-item">
+                                <p>Javascript/Jquery</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(80% - 14px)">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-3-->
+                        
+                        <!--SKILL-ITEM-4-->
+                            <div class="skill-item">
+                                <p>PHP/Laravel</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(75% - 14px)">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-5-->
+                        
+                        <!--SKILL-ITEM-6-->
+                            <div class="skill-item">
+                                <p>Java</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(65% - 14px)">
+                                        <span>65%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-6-->
+                        
+                        <!--SKILL-ITEM-7-->
+                            <div class="skill-item">
+                                <p>MySQL</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(70% - 14px)">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-7-->
+
+                        </div>
+                    </div>
+                </div>
+            <!--/SKILLS-->
+            
+            <!--DESIGNING SKILLS-->
+                <div class="row">
+                    <div class="designing-skills tab-content">
+                        <div class="row">
+                        <!--SKILL-ITEM-1-->
+                            <div class="skill-item">
+                                <p>Wireframe / Prototype</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(85% - 14px)">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-1-->
+                        
+                        <!--SKILL-ITEM-2-->
+                            <div class="skill-item">
+                                <p>UI / UX Designing</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(80% - 14px)">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-2-->
+                        
+                        <!--SKILL-ITEM-3-->
+                            <div class="skill-item">
+                                <p>Front End Designing</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(75% - 14px)">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-3-->
+                        
+                        <!--SKILL-ITEM-4-->
+                            <div class="skill-item">
+                                <p>Product Designing</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(70% - 14px)">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-5-->
+                        
+                        <!--SKILL-ITEM-6-->
+                            <div class="skill-item">
+                                <p>Illustrations</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(80% - 14px)">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-6-->
+                        
+                        <!--SKILL-ITEM-7-->
+                            <div class="skill-item">
+                                <p>UI Kits</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(80% - 14px)">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-7-->
+
+                       <!--SKILL-ITEM-8-->
+                            <div class="skill-item">
+                                <p>Branding</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(75% - 14px)">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-8-->
+                        </div>
+                    </div>
+                </div>
+            <!--/DESIGNING SKILLS
+
+            <!--SOFT SKILLS-->
+                <div class="row">
+                    <div class="soft-skills tab-content">
+                        <div class="row">
+                        <!--SKILL-ITEM-1-->
+                            <div class="skill-item">
+                                <p>Leadership</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(85% - 14px)">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-1-->
+                        
+                        <!--SKILL-ITEM-2-->
+                            <div class="skill-item">
+                                <p>Teamwork</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(75% - 14px)">
+                                        <span>70%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-2-->
+                        
+                        <!--SKILL-ITEM-3-->
+                            <div class="skill-item">
+                                <p>Flexible / Adaptable</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(80% - 14px)">
+                                        <span>80%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-3-->
+                        
+                        <!--SKILL-ITEM-4-->
+                            <div class="skill-item">
+                                <p>Problem Solver</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(75% - 14px)">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-4-->
+                        
+                        <!--SKILL-ITEM-5-->
+                            <div class="skill-item">
+                                <p>Reliable</p>
+                                <div class="progress inner-shadow">
+                                    <div class="progress-bar" style="width: calc(80% - 14px)">
+                                        <span>85%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        <!--/SKILL-ITEM-5-->
+                        
+                        </div>
+                    </div>
+                </div>
+            <!--/SOFT SKILLS-->
+           
+    
+            </div>
+        </div>
+        
+    </section>
+<!--/SKILLS SECTION-->

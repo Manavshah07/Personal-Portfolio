@@ -37,15 +37,49 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 400
 });
 
-// $(function(){
-//   $("a.smooth-scroll").click(function(event){
-//       event.preventDefault();
-//       var section_id = $(this).attr("href");
-//       $("html,body").animate({
-//           scrollTop:$(section_id).offset().top +50
-//       },1250,"easeInOutExpo")
-//   });
-// });
+/*************************************************************************************************************************************
+                                                        SKILLS  SECTION
+*************************************************************************************************************************************/
+//function skills(){
+//    const skillsSection = document.querySelector(".skill"),
+//    tabsContainer = document.querySelector(".skill-tabs");
+//    
+//    tabsContainer.addEventListener("click", (event) => {
+//        
+//        if(event.target.classList.contains("tab-item") && !event.target.classList.contains("active")){
+//            const target = event.target.getAttribute("data-target");
+//            tabsContainer.querySelector(".active").classList.remove("outer-shadow","active");
+//            
+//            event.target.classList.add("active");
+//            
+//            skillsSection.querySelector(".tab-content.active").classList.remove("active");
+//            
+//            skillsSection.querySelector(target).classList.add("active");
+//        }
+//    });
+//}
+//skills();
+
+//( () => {
+//        skillSection = document.querySelector(".skill"),
+//        tabsContainer = document.querySelector(".skill-tabs");
+//    
+//        tabsContainer.addEventListener("click", (event) => {
+//            if(event.target.classList.contains("tab-item") && !event.target.classList.contains("active")){
+//                const target = event.target.getAttribute("data-target");
+//                
+//                tabsContainer.querySelector(".active").classList.remove("outer-shadow", "active");
+//                
+//                event.target.classList.add("active");
+//                
+//                skillSection.querySelector(".tab-content.active").classList.remove("active");
+//                
+//                skillSection.querySelector(target).classList.add("active");
+//            }
+//        })
+//})();
+
+
 
 /*--------------------------------------------------------------------------------------------------------
                                                   HEADER
@@ -70,10 +104,6 @@ $(function (){
                 PRELOADER FUNCTION
 *****************************************************************/
 
-$(window).on('load', function(){
-   $(".wrapper").delay(1000).fadeOut('slow');
-});
-
 // typing animation script
 var typed = new Typed(".typing", {
     strings: ["Web Developer", "Full Stack", "Freelancer", "UI UX Designer"],
@@ -87,14 +117,7 @@ $(document).on('click','ul li', function(){
     $(this).addClass('active').siblings().removeClass('active');
 });
 
-// const currentLocation = location.href;
-// const menuItem = document.querySelectorAll('a');
-// const menuLength = menuItem.length
-// for(let i=0; i<menuLength; i++){
-//     if(menuItem[i].href === currentLocation){
-//         menuItem[i].className = 
-//     }
-// }
+
 
 $('#menu').onePageNav({
 	currentClass: 'active',
