@@ -132,4 +132,30 @@
     .submit-btn{
         margin-left: 40px;
     }
+    
+    
+    
+    /*******************
+    EFFECt SECTION
+    ***************/
+    .effect-1{
+        width: 30px;
+        height: 30px;
+        border: 2px solid #2558E4;
+        right: 90%;
+        bottom: 20%;
+        box-shadow: 0.5px 3px 3px 0.5px rgb(50 50 50 / 40%);
+        animation: blob 10s linear infinite;
+    } 
+    .effect-2{
+        height: 180px;
+        width: 180px;
+        border: 20px solid #ffdc40;
+        border-radius: 50%;
+        left: 40%;
+        top: -10px;
+        box-shadow: 0.5px 3px 3px 0.5px rgb(50 50 50 / 40%);
+        animation: leftBounce 4s linear infinite;
+    }
+
 }

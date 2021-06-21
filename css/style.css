@@ -161,7 +161,7 @@ padding: 90px 0;
     position: absolute;
 
 }
- .effect-1{
+.effect-1{
     width: 30px;
     height: 30px;
     border: 2px solid #2558E4;
@@ -202,6 +202,7 @@ padding: 90px 0;
 /*------------------------------------ 
                 BLOB WRAP 
 --------------------------------------*/
+/*
 
 .blob-wrap{
     width: 300px;
@@ -210,10 +211,11 @@ padding: 90px 0;
     border-radius: 37% 63% 73% 27% / 81% 76% 24% 19%;
     position: absolute;
     top: 70%;
-/*    z-index: -1;*/
+    z-index: -1;
     border-radius: 37% 63% 73% 27% / 81% 76% 24% 19%;
     animation: blobs 10s ease-in-out infinite;
 }
+*/
 @keyframes blobs{
     0%{
         transform: scale(1) translate(0);

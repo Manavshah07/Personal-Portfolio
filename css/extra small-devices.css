@@ -76,7 +76,7 @@
         flex: 0 0 100%;     
     }
     .home .home-text{
-        margin-top: 50px;
+        margin-top: 80px;
         text-align: center;
     }
     .home .home-img .img-circle{
@@ -213,6 +213,30 @@
         text-align: center;
         line-height: 45px;
     }
+    
+    /*******************
+    EFFECt SECTION
+    ***************/
+    .effect-1{
+        width: 30px;
+        height: 30px;
+        border: 2px solid #2558E4;
+        right: 90%;
+        bottom: 20%;
+        box-shadow: 0.5px 3px 3px 0.5px rgb(50 50 50 / 40%);
+        animation: blob 10s linear infinite;
+    } 
+    .effect-2{
+        height: 100px;
+        width: 100px;
+        border: 15px solid #ffdc40;
+        border-radius: 50%;
+        left: 40%;
+        top: 50px;
+        box-shadow: 0.5px 3px 3px 0.5px rgb(50 50 50 / 40%);
+        animation: leftBounce 4s linear infinite;
+    }
+
 }
 
 
@@ -258,7 +282,7 @@
         flex: 0 0 100%;     
     }
     .home .home-text{
-        margin-top: 50px;
+        margin-top: 70px;
         text-align: center;
     }
     .home .home-img .img-circle{
