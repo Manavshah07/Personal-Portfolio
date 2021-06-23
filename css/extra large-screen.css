@@ -40,20 +40,19 @@
     HOME SECTION
     ***************/
     
-    .home .home-text,
+    /* .home .home-text,
     .home .home-img{
         flex: 0 0 50%;    
     }
     .home .home-text{
         margin-top: 40px;
-        /* text-align: left; */
+    
     }
     .home .home-img .img-circle{
         max-width: 500px;
     }
     .home .home-img .img-circle img{
         margin-top: 30px;
-        margin-left: 40px;
     }
     .home .home-text .text-1{
         font-size: 22px;
@@ -68,7 +67,7 @@
         margin: 5px 0;
         line-height: 1.3;
     }
-    
+     */
     
     /*******************
     ABOUT SECTION

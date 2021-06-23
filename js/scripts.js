@@ -37,48 +37,6 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 400
 });
 
-/*************************************************************************************************************************************
-                                                        SKILLS  SECTION
-*************************************************************************************************************************************/
-//function skills(){
-//    const skillsSection = document.querySelector(".skill"),
-//    tabsContainer = document.querySelector(".skill-tabs");
-//    
-//    tabsContainer.addEventListener("click", (event) => {
-//        
-//        if(event.target.classList.contains("tab-item") && !event.target.classList.contains("active")){
-//            const target = event.target.getAttribute("data-target");
-//            tabsContainer.querySelector(".active").classList.remove("outer-shadow","active");
-//            
-//            event.target.classList.add("active");
-//            
-//            skillsSection.querySelector(".tab-content.active").classList.remove("active");
-//            
-//            skillsSection.querySelector(target).classList.add("active");
-//        }
-//    });
-//}
-//skills();
-
-//( () => {
-//        skillSection = document.querySelector(".skill"),
-//        tabsContainer = document.querySelector(".skill-tabs");
-//    
-//        tabsContainer.addEventListener("click", (event) => {
-//            if(event.target.classList.contains("tab-item") && !event.target.classList.contains("active")){
-//                const target = event.target.getAttribute("data-target");
-//                
-//                tabsContainer.querySelector(".active").classList.remove("outer-shadow", "active");
-//                
-//                event.target.classList.add("active");
-//                
-//                skillSection.querySelector(".tab-content.active").classList.remove("active");
-//                
-//                skillSection.querySelector(target).classList.add("active");
-//            }
-//        })
-//})();
-
 
 
 /*--------------------------------------------------------------------------------------------------------
@@ -126,4 +84,11 @@ $('#menu').onePageNav({
 	scrollThreshold: 0.5,
 	filter: '',
 	easing: 'swing'
+});
+
+/*****************************************************************
+                PRELOADER FUNCTION
+*****************************************************************/
+$(window).on('load', function () {
+    $("#preloader").delay(2000).fadeOut("slow");
 });
