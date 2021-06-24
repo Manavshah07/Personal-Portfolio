@@ -1,5 +1,4 @@
 @media(max-width: 950px){
-    
     .navbar .container{
         padding: 0 50px;
     }
@@ -251,9 +250,9 @@
         line-height: 1.5;
     } */
 
-    /* .home .home-text{
+    .home .home-text{
         flex: 0 0 60%;
-        margin: 180px 0 0 100px;
+        margin: 150px 0 0 100px;
         text-align: center;
     }
     .home .home-text .text-1{
@@ -275,25 +274,11 @@
     .home .home-img .img-circle img{
         width: 400px;
     }
-
-    .linkedin-icon{
-        font-size: 20px;
-        position: absolute;
-        top: 380px;
-        left: 42%;
+    .box{
+      display: none;
     }
-    .gitlab-icon{
-        font-size: 20px;
-        position: absolute;
-        top: 380px;
-        left: 49%;
-    }
-    .behance-icon{
-        font-size: 20px; 
-        position: absolute;
-        top: 380px;
-        left: 57%;
-    } */
+    
+   
 
     /*******************
     ABOUT SECTION

@@ -300,8 +300,8 @@ padding: 90px 0;
     justify-content: space-between;
 }
 .home .home-text{
-    margin-left: 240px;
-    margin-top: 150px;
+    margin-left: 220px;
+    margin-top: 200px;
     margin-bottom: 100px;
 }
 .home .home-text .text-1{
@@ -332,31 +332,24 @@ padding: 90px 0;
     width: 650px;
 }
 .social-media-icon{
-    position: relative;
+    margin-top: 20px;
 }
 .linkedin-icon{
     font-size: 25px;
     color: #2558E4;
-    position: absolute;
-    top: 300px;
-    left: 10%;
     transition: all .3s ease-in ;
 }
 .gitlab-icon{
     font-size: 25px;
     color: #2558E4;
-    position: absolute;
-    top: 350px;
-    left: 10%;
     transition: all .3s ease-in ;
+    margin-left: 10px;
 }
 .behance-icon{
     font-size: 25px;
     color: #2558E4;
-    position: absolute;
-    top: 400px;
-    left: 10%;
     transition: all .3s ease-in ;
+    margin-left: 10px;
 }
 .behance-icon:hover{
     color: #bababa;
@@ -498,6 +491,9 @@ padding: 90px 0;
 /*-------------------------------------------------------------------------------------------------------
                                             CONTACT SECTION 
 -------------------------------------------------------------------------------------------------------*/
+.contact{
+    font-family: 'Poppins',sans-serif;
+}
 textarea{
     resize: none;
     font-family: 'Poppins',sans-serif;
@@ -507,7 +503,7 @@ textarea{
     flex: 0 0 100%;
     max-width: 100%;
     text-align: center;
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 .heading h2{
     display: inline-block;
@@ -523,9 +519,7 @@ textarea{
     font-weight: 600;
     color: #2558E4;
 }
-.contact-form{
-    font-family: 'Poppins',sans-serif;
-}
+
 .contact-card{
     width: 400px;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);

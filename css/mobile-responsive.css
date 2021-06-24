@@ -1,0 +1,1107 @@
+/* @media screen and (max-width:1366px){
+
+} */
+
+@media screen and (max-width: 1250px){
+    /* NAVBAR */
+    .navbar .container{
+        /* padding: 30px 50px; */
+        max-width: 950px;
+    }
+
+    /* container */
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 20px 0;
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 120px 0;
+    }
+    .content-box-md{
+    padding: 90px 0;
+    }
+    .content-box-sm{
+        padding: 60px 0;
+    }
+    .content-box-xs{
+        padding: 30px 0;
+    }
+
+    /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 15px;
+    }
+    /*******************
+    HOME SECTION
+    ***************/
+    .home .home-text{
+        margin: 200px 0 0 120px;
+    }
+    .home .home-text .text-1{
+        font-size: 27px;
+    }
+    .home .home-text .text-2{
+        font-size: 49px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 40px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+    
+    .home .home-img .img-circle{
+        margin-top: 0px;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 0px;
+        width: 490px;
+    }
+    .box{
+        display: none;
+    }
+   
+    
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about .container{
+        max-width: 1200px;
+    }
+    .about-flex{
+        display: flex;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 90px;
+        margin-top: 120px;
+    }
+    .about-btn{
+        margin-top: 20px;
+    }
+    .about .about-img img{
+        width: 500px;
+        height: 500px;
+        margin-left: 30px;
+    }
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project .container{
+        max-width: 1200px;
+    }
+    .project-card{
+        width: 400px;
+        height: 400px;
+        margin-left: 100px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 70px;
+    }
+    .contact-card{
+        width: 400px;
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 70px;
+    }
+
+    .contact-input{
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 90%;
+    }
+    .submit-btn{
+        margin-top: 30px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 1120px){
+     /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    /* NAVBAR */
+    .navbar .container{
+        /* padding: 30px 50px; */
+        max-width: 850px;
+    }
+    .container{
+        max-width: 900px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 20px 0;
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 120px 0;
+    }
+    .content-box-md{
+    padding: 90px 0;
+    }
+    .content-box-sm{
+        padding: 60px 0;
+    }
+    .content-box-xs{
+        padding: 30px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+    .home .home-text{
+        flex: 0 0 100%;
+        margin: 150px 0 0 120px;
+    }
+    .home .home-text .text-1{
+        font-size: 24px;
+    }
+    .home .home-text .text-2{
+        font-size: 60px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 30px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+    
+    .home .home-img .img-circle{
+        margin-top: 0px;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 80px;
+        width: 430px;
+    }
+    .box{
+        display: none;
+    }
+    
+    
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about .container{
+        max-width: 1000px;
+    }
+    .about-flex{
+        display: flex;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 70px;
+        margin-top: 80px;
+    }
+    .about-img{
+        margin-left: 0px;
+    }
+    .about-btn{
+        margin-top: 20px;
+    }
+    .about .about-img img{
+        width: 500px;
+        height: 500px;
+    }
+
+     /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 60px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project .container{
+        max-width: 1000px;
+    }
+    .project-card{
+        width: 400px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 0px;
+    }
+    .contact-card{
+        width: 400px;
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 0px;
+    }
+
+    .contact-input{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 94%;
+    }
+    .submit-btn{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    /* NAVBAR */
+    .navbar .container{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active::before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        background: #ffffff;
+        transition: all .3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    /* container */
+    .container{
+        max-width: 850px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 100px 0;
+    }
+    .content-box-md{
+    padding: 70px 0;
+    }
+    .content-box-sm{
+        padding: 40px 0;
+    }
+    .content-box-xs{
+        padding: 20px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+    .home .home-text{
+        flex: 0 0 100%;
+        margin: 150px 0 0 0;
+        text-align: center;
+    }
+    .home .home-text .text-1{
+        font-size: 24px;
+        
+    }
+    .home .home-text .text-2{
+        font-size: 38px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 30px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+    
+    .home .home-img .img-circle{
+        margin-top: 0px;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 80px;
+        width: 430px;
+    }
+    .box{
+        display: none;
+    }
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about .container{
+        max-width: 950px;
+    }
+    
+    .about-flex{
+        display: flex;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 60px;
+        margin-top: 50px;
+    }
+    .about-img{
+        margin-left: 30px;
+    }
+    .about-btn{
+        margin-top: 10px;
+    }
+    .about .about-img img{
+        width: 400px;
+        height: 400px;
+    }
+
+    /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 60px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project .container{
+        max-width: 900px;
+        margin: auto;
+    }
+    .project-card{
+        width: 350px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 20px;
+    }
+    .contact-card{
+        width: 350px;
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 20px;
+    }
+
+    .contact-input{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 94%;
+    }
+    .submit-btn{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    /* container */
+    .container{
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        padding: 10px 20px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 90px 0;
+    }
+    .content-box-md{
+    padding: 70px 0;
+    }
+    .content-box-sm{
+        padding: 40px 0;
+    }
+    .content-box-xs{
+        padding: 20px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+    .home .home-text{
+        flex: 0 0 100%;
+        margin: 150px 0 0 0;
+        text-align: center;
+    }
+    .home .home-text .text-1{
+        font-size: 20px;
+        
+    }
+    .home .home-text .text-2{
+        font-size: 34px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 26px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+    
+    .home .home-img .img-circle{
+        margin-top: 0px;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 80px;
+        width: 430px;
+    }
+    .box{
+        display: none;
+    }
+    
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about-flex{
+        display: block;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 70px;
+        margin-top: 50px;
+    }
+    .about-img{
+        margin-left: 50px;
+    }
+    .about-btn{
+        margin-top: 0px;
+    }
+    .about .about-img img{
+        width: 500px;
+        height: 500px;
+    }
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project-card{
+        width: 500px;
+        height: 400px;
+        margin-left: 70px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 15px;
+    }
+
+    /*******************
+    CONTACT SECTION
+    ***************/
+    .gutter{
+        margin-left: 30px;
+    }
+    .contact-card{
+        width: 600px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 30px;
+    }
+
+    .contact-input{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 90%;
+    }
+    .submit-btn{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+     /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 150px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project-card{
+        width: 500px;
+        height: 400px;
+        margin-left: 80px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 20px;
+    }
+    .contact-card{
+        width: 550px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 20px;
+    }
+
+    .contact-input{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 92%;
+    }
+    .submit-btn{
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:650px){
+    /* container */
+    .container{
+        max-width: 600px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 70px 0;
+    }
+    .content-box-md{
+    padding: 60px 0;
+    }
+    .content-box-sm{
+        padding: 40px 0;
+    }
+    .content-box-xs{
+        padding: 20px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+    .home .home-text{
+        flex: 0 0 100%;
+        margin: 150px 0 0 0;
+        text-align: center;
+    }
+    .home .home-text .text-1{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .home .home-text .text-2{
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 22px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+    
+    .home .home-img .img-circle{
+        margin-top: 0px;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 80px;
+        width: 440px;
+    }
+    .box{
+        display: none;
+    }
+    
+
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about-flex{
+        display: block;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 30px;
+        margin-top: 50px;
+    }
+    .about .about-img img{
+        width: 450px;
+        height: 450px;
+    }
+    .about-img{
+        margin-left: 30px;
+    }
+    .about-btn{
+        margin-top: 10px;
+    }
+    /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 120px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project-card{
+        width: 500px;
+        height: 400px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 20px;
+    }
+    .contact-card{
+        width: 500px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 20px;
+    }
+
+    .contact-input{
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 92%;
+    }
+    .submit-btn{
+        margin-left: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+     /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 70px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project-card{
+        width: 450px;
+        height: 400px;
+        margin-left: 30px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width:590px){
+    .home .home-img .img-circle img{
+        margin-left: 100px;
+        width: 440px;
+    }
+}
+
+@media screen and (max-width:500px){
+    /* container */
+    .container{
+        max-width: 400px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        padding: 8px 16px;
+        font-size: 14px;
+        margin: 20px 0;
+        /* margin-top: 20px!important; */
+    }
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 60px 0;
+    }
+    .content-box-md{
+    padding: 50px 0;
+    }
+    .content-box-sm{
+        padding: 30px 0;
+    }
+    .content-box-xs{
+        padding: 15px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+    .home .home-text{
+        flex: 0 0 100%;
+        margin: 150px 0 0 0;
+        text-align: center;
+    }
+    .home .home-text .text-1{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .home .home-text .text-2{
+        font-size: 30px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 22px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+    
+    .home .home-img .img-circle{
+        margin: 0;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 60px;
+        width: 300px;
+    }
+    .box{
+        display: none;
+    }
+    
+
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about-flex{
+        display: block;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 30px;
+        margin-top: 50px;
+    }
+    .about .about-img img{
+        width: 300px;
+        height: 300px;
+    }
+    .about-img{
+        margin-left: 0px;
+    }
+    .about-btn{
+        margin-top: 10px;
+    }
+
+    /*******************
+    SKILL SECTION
+    ***************/
+    .skill .skill-card{
+        margin-left: 10px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project-card{
+        width: 400px;
+        height: 400px;
+        margin-left: 20px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .gutter{
+        margin-left: 0px;
+    }
+    .contact-card{
+        width: 300px;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 0px;
+    }
+
+    .contact-input{
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 90%;
+    }
+    .submit-btn{
+        margin-left: 30px;
+    }
+    
+
+}
+
+@media screen and (max-width:300px){
+    body{
+         overflow-x: hidden;
+    }
+    /* container */
+    .container{
+        max-width: 400px;
+        margin: auto;
+    }
+
+    /* btn */
+    .btn{
+        padding: 8px 16px;
+        font-size: 14px;
+        margin: 20px 0;
+        /* margin-top: 20px!important; */
+    }    
+
+    /*******************
+    content boxes
+    ***************/
+    .content-box-lg{
+        padding: 60px 0;
+    }
+    .content-box-md{
+    padding: 50px 0;
+    }
+    .content-box-sm{
+        padding: 30px 0;
+    }
+    .content-box-xs{
+        padding: 15px 0;
+    }
+
+    /*******************
+    HOME SECTION
+    ***************/
+
+    .home .home-text,
+    .home .home-img{
+        flex: 0 0 100%;     
+    }
+    .home .home-text{
+        margin-top: 150px;
+        text-align: center;
+    }
+    .home .home-img .img-circle{
+        padding: 0px;
+    }
+    .home .home-img .img-circle img{
+        margin-left: 30px;
+        width: 250px;
+    }
+    .home .home-text .text-1{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .home .home-text .text-2{
+        font-size: 24px;
+        line-height: 1.3;
+    }
+    .home .home-text .text-3{
+        font-size: 18px;
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+
+    /*******************
+    ABOUT SECTION
+    ***************/
+    .about-flex{
+        display: block;
+        margin-top: 50px;
+    }
+    .about-info{
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+    .about .about-img img{
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .skill{
+        margin-left: 0;
+    }
+    .skill-card{
+        width: 250px;
+        height: 500px;
+        background-color: #f5f5f5;
+        margin: 60px 0 0 0px;
+        margin-left: 0;
+    }
+
+    /*******************
+    PROJECT SECTION
+    ***************/
+    .project-card{
+        width: 280px;
+        height: 320px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .project-btn{
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .project-card .project-card-title h3{
+        margin-top: 10px;
+    }
+
+    /*******************
+    CONTACT SECTION
+    ***************/
+    .gutter{
+        margin-left: 0px;
+    }
+    .contact-card{
+        width: 250px;
+    }
+    .contact .contact-item{
+        margin-top: 20px;
+    }
+    .contact .contact-item:nth-child(2){
+        margin-left: 0px;
+    }
+
+    .contact-input{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    .contact .input-group .input-control{
+        width: 93%;
+    }
+    .submit-btn{
+        margin-left: 20px;
+    }
+}
