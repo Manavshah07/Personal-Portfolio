@@ -915,20 +915,22 @@
     SKILL SECTION
     ***************/
     .skill .skill-card{
-        margin-left: 10px;
+        width: 300px;
+        height: 430px;
+        margin: 60px 0 0 30px;
     }
 
     /*******************
     PROJECT SECTION
     ***************/
     .project-card{
-        width: 400px;
+        width: 300px;
         height: 400px;
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 70px;
     }
     .project-btn{
-        margin-left: 20px;
+        margin-left: 30px;
         margin-top: 30px;
     }
 
