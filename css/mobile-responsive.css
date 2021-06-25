@@ -239,7 +239,7 @@
 
 @media screen and (max-width: 770px) {
     .home .home-img .img-circle img{
-        margin-left: 100px;
+        margin-left: 130px;
         width: 600px;
     }
 }
@@ -806,7 +806,7 @@
     ***************/
     .home .home-text{
         flex: 0 0 100%;
-        margin: 180px 0 0 0;
+        margin: 175px 0 0 0;
         text-align: center;
     }
     .home .home-text .text-1{
