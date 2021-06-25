@@ -150,14 +150,14 @@
     } 
     .home .home-img .img-circle img{
         margin-left: 660px;
-        width: 340px;
+        width: 330px;
     }
     .box{
         width: 80px;
         height: 110px;
         position: absolute;
         top: 69%;
-        left: 60%;
+        left: 0%;
     }
 }
 
