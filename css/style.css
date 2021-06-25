@@ -66,6 +66,9 @@ body{
     display: grid;
     grid-gap: 1.5rem;
 }
+.f-28{
+    font-size: 28px!important;
+}
 /*******************
 content boxes
 ***************/
