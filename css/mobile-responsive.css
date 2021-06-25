@@ -1153,10 +1153,10 @@
         line-height: 1.5;
     }
     .home .home-img .img-circle{
-        margin-top: 0px;
+        margin-top: 80px;
     } 
     .home .home-img .img-circle img{
-        margin-left: 0px;
+        margin-left: 80px;
         width: 300px;
     }
     .box{
