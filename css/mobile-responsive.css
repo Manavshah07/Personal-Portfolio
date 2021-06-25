@@ -1155,7 +1155,7 @@
         margin-top: 0;
     } 
     .home .home-img .img-circle img{
-        margin-left: 80px;
+        margin-left: 90px;
         width: 300px;
     }
     .box{
@@ -1234,8 +1234,19 @@
     .submit-btn{
         margin-left: 30px;
     }
-    
+}
 
+@media screen and (max-width:400px){
+    .home .home-img .img-circle{
+        margin-top: 0;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 60px;
+        width: 300px;
+    }
+    .box{
+        display: none;
+    }
 }
 
 @media screen and (max-width:300px){
