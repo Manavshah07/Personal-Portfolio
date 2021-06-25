@@ -149,14 +149,14 @@
         margin-top: 0;
     } 
     .home .home-img .img-circle img{
-        margin-left: 650px;
+        margin-left: 660px;
         width: 340px;
     }
     .box{
         width: 80px;
         height: 110px;
         position: absolute;
-        top: 68%;
+        top: 69%;
         left: 60%;
     }
 }
