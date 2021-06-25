@@ -239,8 +239,8 @@
 
 @media screen and (max-width: 770px) {
     .home .home-img .img-circle img{
-        margin-left: 320px;
-        width: 430px;
+        margin-left: 0px;
+        width: 600px;
     }
 }
 
