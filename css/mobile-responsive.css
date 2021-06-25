@@ -1152,7 +1152,16 @@
         margin: 5px 0;
         line-height: 1.5;
     }
-    
+    .home .home-img .img-circle{
+        margin-top: 0px;
+    } 
+    .home .home-img .img-circle img{
+        margin-left: 0px;
+        width: 410px;
+    }
+    .box{
+        display: none;
+    }
 
     /*******************
     ABOUT SECTION
